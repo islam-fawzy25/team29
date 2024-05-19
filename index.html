@@ -1,0 +1,73 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="headr-conatainer">
+      <p>ordeer summry</p>
+      <div class="sub-container">
+        <span>Total</span>
+        <span>$33/month</span>
+      </div>
+      <hr />
+      <div>
+        <div class="sub-container">
+         <span><b>Total</b></span>
+          <span><b>$100</b></span>
+        
+        </div>
+      </div>
+    </section>
+    <section class="second-section">
+
+      <label for="dd" class="input-lable">
+      <div class="payment-cards">
+        <input type="checkbox" class="input-radio"  id="dd"  value="credit">
+        <img src="./cards.png" style="width: 138px; height: 36px" />
+       <p>credit/debit</p> 
+      </div>
+    </label>
+
+      <label for="dd2" class="input-lable">
+      <div class="payment-cards">
+        <input type="checkbox" class="input-radio" id="dd2" value="paypal" >
+        <img src="paypal.png" style="width: 34px; height: 40px" />
+       <p>paypal</p> 
+      </div>
+    </label>
+ 
+    </section>
+    <section class="third-section">
+      <h2>Card Info</h2>
+      <form class="form-container">
+        <div class="card-data">
+        <label for="card-number">card number</label></br>
+        <input
+          name="card-number"
+          type="text"
+          placeholder="1234 1234 1234 1234"
+          required
+          maxlength="20"
+          minlength="19"
+        />
+      </div >
+      <div class="card-data">
+        <label for="expire-date"> expiry date</label></br>
+        <input type="date" id="datemax" name="datemax" min="2024-05-15" />
+      </div>
+      <div class="card-data">
+        <label for="cvv">CVV</label></br>
+        <input name="cvv" type="number" placeholder="CVV" />
+      </div>
+        
+      </form>
+    </section>
+    <section class="forth-section">
+      <button type="submit">Buy now</button>
+      <a href="google.com">need help?</a>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 80%;
+}
+
+.headr-conatainer {
+    height: 161px;
+    left: 287px;
+    background: linear-gradient(92.74deg, #FD7B46 1.15%, #FE4E9B 98.48%);
+    padding-top: 30px;
+    color: white;
+}
+
+.sub-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+
+}
+
+.second-section {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.payment-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    height: 110px;
+    border: 4px solid rgb(237, 234, 234);
+    border-radius: 25px;
+    align-items: center;
+    /*to center img&p */
+
+}
+
+* {
+    box-sizing: border-box;
+
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 80%;
+}
+
+.headr-conatainer {
+    height: 161px;
+    left: 287px;
+    background: linear-gradient(92.74deg, #FD7B46 1.15%, #FE4E9B 98.48%);
+    padding-top: 30px;
+    color: white;
+}
+
+.sub-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+
+}
+
+.second-section {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.payment-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    height: 110px;
+    /* border: 4px solid lightgray;*/
+    border-radius: 25px;
+    align-items: center;
+    /*to center img&p */
+    cursor: pointer;
+}
+
+
+.input-radio {
+    display: none;
+}
+
+.input-radio:checked+.payment-cards {
+    border: 4px solid #fe4e9b;
+}
+
+.third-section {
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.third-section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.form-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-data input {
+    background-color: lightgray;
+}
+
+.forth-section {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.forth-section button {
+    width: 326px;
+    height: 68px;
+    top: 581px;
+    left: 530px;
+    border-radius: 68px;
+    background: linear-gradient(92.74deg, #FD7B46 1.15%, #FE4E9B 98.48%);
+    margin-bottom: 20px;
+    align-self: center;
+}
+
+.forth-section a {
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20.7px;
+    text-align: center;
+    color: rgb(255, 28, 28);
+}
